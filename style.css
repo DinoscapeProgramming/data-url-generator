@@ -1,0 +1,50 @@
+input[id=input] {
+    padding: 9.4px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 240px;
+}
+
+input[id=input]::file-selector-button {
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-right: 13px;
+}
+
+input[id=input]::file-selector-button:hover {
+    background-color: rgb(122, 110, 110);
+}
+
+input[id=input].imgupload {
+    color: green;
+    background-color: green;
+}
+
+button[id=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[id=button]:hover {
+    background-color: #45a049;
+}
+
+input[id=text] {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 7px;
+}
